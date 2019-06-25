@@ -2,85 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39255ec1-c13f-4ffc-b77d-4926dc304d7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/SmartHomeConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/AirConditioningController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/DringkingFountainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/LampController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/RefrigeratorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/SpeakerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/TvController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/WashingMachineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_consumer/src/test/java/com/chongya/SmartHomeConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/smart_home_interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Air_conditioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Dringking_fountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Lamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Refrigerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Washing_machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/AirConditioningService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/DringkingFountainService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/LampService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/RefrigeratorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/SpeakerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/TvService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/WashingMachineService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Air_conditioning.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Dringking_fountain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Lamp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Refrigerator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Speaker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Tv.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Washing_machine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/service/AirConditioningService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/service/DringkingFountainService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/service/LampService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/service/RefrigeratorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/service/SpeakerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/service/TvService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/service/WashingMachineService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/SmartHomeProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/AirConditioningMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/DringkingFountainMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/LampMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/RefrigeratorMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/SpeakerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/TvMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/WashingMachineMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/AirConditioningServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/DringkingFountainServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/LampServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/RefrigeratorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/SpeakerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/TvServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/WashingMachineServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smart_home_provider/src/test/java/com/chongya/SmartHomeProviderApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,7 +31,10 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../localGitRepo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,22 +86,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="smart_home" type="b2602c69:ProjectViewProjectNode" />
-              <item name="smart_home" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module&#10;directory&#10;repository" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -242,17 +159,35 @@
       <workItem from="1561441497979" duration="4381000" />
       <workItem from="1561446079696" duration="28000" />
       <workItem from="1561446475041" duration="88000" />
-      <workItem from="1561446604723" duration="2044000" />
+      <workItem from="1561446604723" duration="2606000" />
+      <workItem from="1561449332385" duration="331000" />
     </task>
+    <task id="LOCAL-00001" summary="fsp first commit">
+      <created>1561448791395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561448791395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15035000" />
+    <option name="totallyTimeSpent" value="15928000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -266,15 +201,15 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" side_tool="true" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.64164305" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.42574257" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.49932975" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.42492917" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.32956153" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -326,150 +261,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../localGitRepo" />
+    </ignored-roots>
+    <MESSAGE value="fsp first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fsp first commit" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Air_conditioning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Dringking_fountain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Lamp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Refrigerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Speaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Washing_machine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/SpeakerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/RefrigeratorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/LampService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/DringkingFountainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/WashingMachineService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/AirConditioningService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/AirConditioningServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/LampServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/RefrigeratorServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/SpeakerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/WashingMachineServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/AirConditioningMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/DringkingFountainMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/mapper/LampMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -487,58 +290,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/AirConditioningController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/DringkingFountainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/LampController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/RefrigeratorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/WashingMachineController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/SpeakerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -577,66 +328,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/SmartHomeConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/SmartHomeProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Tv.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1231#1232#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1484#1485#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1586#1587#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1661#1662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/TvService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -673,20 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/TvController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/smart_home_provider/src/main/java/com/chongya/service/impl/TvServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -700,6 +381,181 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/.mvn/wrapper/maven-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/.mvn/wrapper/MavenWrapperDownloader.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/AirConditioningController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/DringkingFountainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/LampController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/RefrigeratorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/SpeakerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/TvController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/controller/WashingMachineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/java/com/chongya/SmartHomeConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/src/test/java/com/chongya/SmartHomeConsumerApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Air_conditioning.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Dringking_fountain.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Lamp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Refrigerator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Speaker.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Tv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/entity/Washing_machine.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/AirConditioningService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/DringkingFountainService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/LampService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/RefrigeratorService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/SpeakerService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/TvService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/src/main/java/com/chongya/service/WashingMachineService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smart_home_interface/target/classes/com/chongya/entity/Air_conditioning.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
