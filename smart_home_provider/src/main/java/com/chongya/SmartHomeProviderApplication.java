@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan("com.chongya.mapper")
 @EnableDubboConfiguration   //开启dubbo服务
 public class SmartHomeProviderApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(SmartHomeProviderApplication.class, args);
     }
