@@ -34,7 +34,7 @@ public class AirConditioningServiceImpl implements AirConditioningService {
     }
 
     @Override
-    public Air_conditioning getAcByid(int aid) {
+    public Air_conditioning getAcByAid(int aid) {
         return mapper.selectById(aid);
     }
 }

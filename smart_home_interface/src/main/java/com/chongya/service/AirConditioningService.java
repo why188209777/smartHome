@@ -15,5 +15,5 @@ public interface AirConditioningService {
     //改
     public int updateAc(Air_conditioning ac);
     //查
-    public Air_conditioning getAcByid(int aid);
+    public Air_conditioning getAcByAid(int aid);
 }

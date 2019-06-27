@@ -1,33 +1,34 @@
 package com.chongya.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
 
-@TableName("Lamp")
-public class Lamp implements Serializable {
-    @TableId("lid")
-    private int lid;
-    private String lname;
+@TableName("drinking_fountain")
+public class Drinking_fountain implements Serializable {
+    @TableId("did")
+    private int did;
+    private String dname;
     private int mode;
     private int switch_status;
     private int connect_status;
 
-    public int getLid() {
-        return lid;
+    public int getDid() {
+        return did;
     }
 
-    public void setLid(int lid) {
-        this.lid = lid;
+    public void setDid(int did) {
+        this.did = did;
     }
 
-    public String getLname() {
-        return lname;
+    public String getDname() {
+        return dname;
     }
 
-    public void setLname(String lname) {
-        this.lname = lname;
+    public void setDname(String dname) {
+        this.dname = dname;
     }
 
     public int getMode() {
@@ -56,30 +57,30 @@ public class Lamp implements Serializable {
 
     @Override
     public String toString() {
-        return "Lamp{" +
-                "lid=" + lid +
-                ", lname='" + lname + '\'' +
+        return "Drinking_fountain{" +
+                "did=" + did +
+                ", dname='" + dname + '\'' +
                 ", mode=" + mode +
                 ", switch_status=" + switch_status +
                 ", connect_status=" + connect_status +
                 '}';
     }
 
-    public Lamp(int lid, String lname, int mode, int switch_status, int connect_status) {
-        this.lid = lid;
-        this.lname = lname;
+    public Drinking_fountain(int did, String dname, int mode, int switch_status, int connect_status) {
+        this.did = did;
+        this.dname = dname;
         this.mode = mode;
         this.switch_status = switch_status;
         this.connect_status = connect_status;
     }
 
-    public Lamp(String lname, int mode, int switch_status, int connect_status) {
-        this.lname = lname;
+    public Drinking_fountain(String dname, int mode, int switch_status, int connect_status) {
+        this.dname = dname;
         this.mode = mode;
         this.switch_status = switch_status;
         this.connect_status = connect_status;
     }
 
-    public Lamp() {
+    public Drinking_fountain() {
     }
 }

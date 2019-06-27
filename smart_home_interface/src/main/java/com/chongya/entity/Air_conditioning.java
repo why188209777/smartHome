@@ -1,8 +1,13 @@
 package com.chongya.entity;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.io.Serializable;
 
+@TableName("air_conditioning")
 public class Air_conditioning implements Serializable {
+    @TableId("aid")
     private int aid;
     private String aname;
     private int temp;

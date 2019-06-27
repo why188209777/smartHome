@@ -1,8 +1,13 @@
 package com.chongya.entity;
 
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
+
 import java.io.Serializable;
 
+@TableName("tv")
 public class Tv implements Serializable {
+    @TableId("tid")
     private int tid;
     private int channel;
     private int volume;
