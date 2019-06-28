@@ -1,8 +1,12 @@
 package com.chongya.entity;
 
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 
+import java.io.Serializable;
+@TableName("speaker")
 public class Speaker implements Serializable {
+    @TableId("sid")
     private int sid;
     private String sname;
     private int volume;
