@@ -3,6 +3,7 @@ package com.chongya.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.chongya.entity.Air_conditioning;
 import com.chongya.service.AirConditioningService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class AirConditioningController {
     @Reference(version = "1.0.0")
     private AirConditioningService acs;
@@ -34,11 +36,10 @@ public class AirConditioningController {
     }
     @RequestMapping("updateAid")
     public int updateAc(Air_conditioning conditioning){
-        conditioning = new Air_conditioning();
-        conditioning.setAname("水院空调");
+        /*conditioning.setAname("水院空调");
         conditioning.setMode(1);
         conditioning.setAid(1);
-        conditioning.setTime(3000);
+        conditioning.setTime(3000);*/
         return acs.updateAc(conditioning);
     }
     @RequestMapping("getAcByAid/{aid}")
