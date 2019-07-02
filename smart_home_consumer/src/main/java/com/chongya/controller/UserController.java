@@ -15,14 +15,14 @@ public class UserController {
     private UserService userService;
     @RequestMapping("updatUser")
     public int updateUser(User user){
-        user.setUid(1);
+       /* user.setUid(1);
         user.setUname("hha");
         user.setPhone("1231");
         user.setEmergency_phone("1313");
-        user.setAddress("zhejiang");
+        user.setAddress("zhejiang");*/
         return userService.updateUser(user);
     }
-@RequestMapping("getUserBySid/{uid}")
+@RequestMapping("getUserByUid/{uid}")
     public User getUserBySid(@PathVariable("uid") int uid){
         return userService.getUserBySid(uid);
     }
