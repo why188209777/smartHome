@@ -24,4 +24,6 @@ public class TvServiceImpl implements TvService {
         return tvMapper.selectList(null);
     }
 
+    @Override
+    public  int updateTv(Tv tv){return  tvMapper.updateById(tv);}
 }

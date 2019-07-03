@@ -23,4 +23,7 @@ public class TvController {
     public List<Tv> getTvList(){
         return  tvService.getTvList();
     }
+
+    @RequestMapping("updateTv")
+    public  int updateTv(Tv tv){return  tvService.updateTv(tv);}
 }

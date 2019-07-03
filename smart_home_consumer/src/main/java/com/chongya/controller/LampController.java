@@ -4,6 +4,7 @@ package com.chongya.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.chongya.entity.Lamp;
 import com.chongya.service.LampService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@CrossOrigin
 public class LampController {
 
     @Reference(version = "1.0.0")
@@ -37,12 +39,6 @@ public class LampController {
 
     @RequestMapping("updateLamp")
     public int updateLamp(Lamp lamp){
-        lamp = new Lamp();
-        lamp.setLid(2);
-        lamp.setMode(3);
-        lamp.setConnect_status(1);
-        lamp.setSwitch_status(1);
-        lamp.setLname("水院灯");
         return lampService.updateLamp(lamp);
     }
 
