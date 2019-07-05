@@ -1,0 +1,476 @@
+@font-face {
+	font-family: 'UnidreamLED';
+	src: url(../fonts/UnidreamLED/UnidreamLED.eot);
+	/***兼容ie9***/
+	src: url(../fonts/UnidreamLED/UnidreamLED.eot?#iefix)format('embedded-opentype'),
+		/***兼容ie6-ie8***/
+		url('../fonts/UnidreamLED/UnidreamLED.woff') format('woff'),
+		local('UnidreamLED'), url("../fonts/UnidreamLED/UnidreamLED.woff");
+	/***默认使用本地的***/
+}
+
+::-webkit-scrollbar {
+	/*隐藏滚轮*/
+	display: none;
+}
+
+.main {
+	margin: 16px;
+}
+
+body {
+
+	background-image: url(../images/bg/bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div {
+	/* border: 1px solid #00B8D4; */
+
+}
+
+span {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+iframe {
+	width: 100%;
+	height: 400px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding: 0;
+}
+
+/* 透明度 */
+.transparency {
+	background: rgba(255, 255, 255, 0.1);
+	/* background: #847c74; */
+}
+
+.user-name-container {
+	height: 100px;
+	position: relative;
+}
+
+.user-name-container span {
+	position: absolute;
+	top: 35px;
+	font-size: 25px;
+}
+
+.user-image {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.user-img-container {
+	height: 100px;
+	position: relative;
+}
+
+.setting-btn {
+	float: right;
+}
+
+.user-dialog{
+	height: 70%;
+	width:37%;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.time-container,
+.temp-container,
+.humidity-container {
+	padding: 8px;
+	height: 100px;
+	/* border-radius: 10px; */
+	position: relative;
+}
+
+.indoor-humidity,
+.indoor-temp {
+	position: absolute;
+	font-family: 'UnidreamLED';
+	font-size: 50px;
+	top: 25px;
+	left: 25px;
+}
+
+.indoor-humidity-small,
+.indoor-temp-small {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+}
+
+.localTime{
+	font-family: 'UnidreamLED';
+	font-size: 60px;
+	position: absolute;
+	left: 60px;
+}
+
+.localDate{
+	position: absolute;
+	bottom: 16px;
+	left: 40px;
+}
+
+.connected-find {
+	height: 40px;
+}
+
+.connected-container {
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+}
+
+.find-container {
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+}
+
+.frosted-glass {
+	/* background: inherit;
+            -webkit-filter: blur(1px);
+            -moz-filter: blur(1px);
+            -ms-filter: blur(1px);
+            -o-filter: blur(1px);
+            filter: blur(1px);
+            filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=1, MakeShadow=false); */
+}
+
+.air-temp {
+	position: absolute;
+	top: 64px;
+	left: 32px;
+	font-family: 'UnidreamLED';
+	font-size: 80px;
+}
+
+.running-container {
+	padding: 8px;
+	height: 200px;
+	/* border-radius: 10px; */
+	position: relative;
+}
+
+.running-container i {
+	width: 10px;
+	height: 10px;
+}
+
+.switch-status {
+	width: 25px;
+	height: 25px;
+	margin-left: 3px;
+	margin-right: 5px;
+}
+
+/* 其他状态图标 */
+.other-status {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+}
+
+.running-title {
+	font: bold 20px arial;
+	width: 100%;
+}
+
+.air-mode {
+	top: 30px;
+}
+
+.air-speed {
+	top: 70px;
+}
+
+.air-time {
+	top: 110px;
+}
+
+.air-direction {
+	top: 150px;
+}
+
+.ref-gear {
+	position: absolute;
+	top: 64px;
+	left: 70px;
+	font-family: 'UnidreamLED';
+	font-size: 80px;
+}
+
+.ref-gear-small {
+	font: bold 20px arial;
+	position: absolute;
+	top: 115px;
+	right: 65px;
+}
+
+.drink-temp {
+	position: absolute;
+	top: 64px;
+	left: 32px;
+	font-family: 'UnidreamLED';
+	font-size: 80px;
+}
+
+.drink-icon {
+	top: 95px;
+}
+
+.lamp-icon {
+	position: absolute;
+	top: 64px;
+	left: 50px;
+	width: 90px;
+	height: 90px;
+}
+
+.setting-dialog {
+	width: 350px;
+	height: 300px;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.air-dialog {
+	width: 60%;
+	height: 60%;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.air-dialog label {
+	margin-right: 20px;
+}
+
+.choose-items {
+	padding-left: 30px;
+}
+
+.choose-items button {
+	margin-left: 30px;
+}
+
+.ref-dialog {
+	width: 600px;
+	height: 320px;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.livinglamp-dialog {
+	width: 420px;
+	height: 320px;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.bedlamp-dialog {
+	width: 320px;
+	height: 320px;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.gear-btn {
+	border: 2px solid #1976D2;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+.lamp-btn {
+	border: 2px solid yellow;
+	font-size: 16px;
+	margin-left: 30px;
+}
+
+.drink-dialog {
+	width: 500px;
+	height: 320px;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.wash-dialog {
+	width: 30%;
+	height: 60%;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.was-temp {
+	position: absolute;
+	top: 64px;
+	left: 32px;
+	font-family: 'UnidreamLED';
+	font-size: 80px;
+}
+
+.water-container,
+.electric-container {
+	padding: 8px;
+	height: 100px;
+	/* border-radius: 10px; */
+	position: relative;
+}
+
+.use-water,
+.use-electric {
+	position: absolute;
+	font-size: 40px;
+	top: 30px;
+	left: 45px;
+}
+
+.use-water-small {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	font-size: 16px;
+}
+
+.use-electric-small {
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-size: 16px;
+}
+
+.quick-icon {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+
+.quick-title {
+	position: absolute;
+	bottom: 10%;
+	left: 40%;
+	font-size: 20px;
+}
+
+
+.quick-container {
+	margin-top: 16px;
+	height: 92px;
+	position: relative;
+}
+
+.camera-dialog {
+	width: 60%;
+	height: 70%;
+	/* border-radius: 5px; */
+	padding: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.camera-dialog video {
+	width: 100%;
+	height: 80%;
+}
+
+.camera-dialog button {
+	margin: 16px;
+}
+
+.add-device-dialog {
+	width: 800px;
+	height: 800px;
+	/* border-radius: 5px; */
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 32px;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+/*全屏蒙版*/
+.Mask {
+	background-color: #9D9D9D;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	/*opacity: 0.5;*/
+	z-index: 6;
+	position: absolute;
+
+}
+
+.Mask .MaskImg {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg/bg5.jpg);
+	z-index: 10;
+}
+
+.Mask .timeContainer {
+	position: absolute;
+	bottom: 80px;
+	left: 50px;
+	/*font-family: 'UnidreamLED';*/
+	z-index: 20;
+}
+
+.Mask .timeContainer .timeTop {
+	font-size: 100px;
+}
+
+.Mask .timeContainer .timeBottom {
+	font-size: 60px;
+}
+/*天气*/
+#weather-view-he{
+ background: rgba(255, 255, 255, 0.1)!important;
+}
+.wv-cr-h-copyright{
+	display: none;
+}

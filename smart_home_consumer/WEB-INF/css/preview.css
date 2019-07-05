@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'UnidreamLED';
+	src: url(../fonts/UnidreamLED/UnidreamLED.eot);
+	/***兼容ie9***/
+	src: url(../fonts/UnidreamLED/UnidreamLED.eot?#iefix)format('embedded-opentype'),
+		/***兼容ie6-ie8***/
+		url('../fonts/UnidreamLED/UnidreamLED.woff') format('woff'),
+		local('UnidreamLED'), url("../fonts/UnidreamLED/UnidreamLED.woff");
+	/***默认使用本地的***/
+}
+
+body {
+	background: url(../images/preview.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.left {
+	width: 60%;
+	height: 100%;
+	filter: brightness(50%);
+	background: rgba(255, 255, 255, 0.1);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.right {
+	width: 40%;
+	height: 100%;
+	filter: brightness(50%);
+	background: rgba(255, 255, 255, 0.1);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.tv {
+	width: 20%;
+	height: 3%;
+	position: absolute;
+	top: 5%;
+	left: 29%;
+	border-radius: 50%;
+}
+
+button {
+	position: absolute;
+	bottom: 0;
+}
+
+.air-dialog {
+	width: 650px;
+	height: 310px;
+	padding: 0;
+	position: relative;
+	background-image: url(../images/空调.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.ref-dialog {
+	width: 320px;
+	height: 554px;
+	padding: 0;
+	position: relative;
+	background-image: url(../images/冰箱.png);
+	background-size: 100% 100%;
+	border-radius: 20px;
+}
+
+.drink-dialog {
+	width: 350px;
+	height: 900px;
+	padding: 0;
+	position: relative;
+	background-image: url(../images/饮水机.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.temp {
+	font-family: 'UnidreamLED';
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 42%;
+	right: 17%;
+}
+
+.gear{
+	ont-family: 'UnidreamLED';
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	top: 42%;
+	right: 17%;
+}
+
+.dtemp {
+	font-family: 'UnidreamLED';
+	font-size: 60px;
+	color: white;
+	position: absolute;
+	top: 10%;
+	left: 46%;
+}

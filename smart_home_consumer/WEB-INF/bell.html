@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>门铃</title>
+		<link rel="stylesheet" href="css/mdui.min.css">
+		<link rel="stylesheet" href="jquery.gridly/stylesheets/jquery.gridly.css" />
+		<link rel="stylesheet" href="jquery-gridly/stylesheets/jquery.gridly.css" />
+		<link rel="stylesheet" href="jquery.gridly/stylesheets/sample.css" />
+
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="jquery.gridly/javascripts/jquery.gridly.js" type="text/javascript"></script>
+		<script src="jquery.gridly/javascripts/sample.js" type="text/javascript"></script>
+		<script src="js/mdui.min.js"></script>
+		<meta charset="utf-8" />
+	</head>
+	<style>
+		body{
+			background-repeat: no-repeat;
+		}
+		
+		.bell{
+			border: 1px solid black;
+			position: absolute;
+			top: 50%;
+			left: 40%;
+		}
+	</style>
+	<body background="images/bell_bg.png">
+		<button class="mdui-btn mdui-btn-icon bell" onclick="but()">
+			<i class="mdui-icon material-icons">notifications</i>
+		</button>
+	</body>
+	<!-- 设置页面公共变量 -->
+	<script type="text/javascript">
+		var jsonData = {
+			data : 0
+		}; // 定义一个JSON对象
+		var jsonObjold = eval(jsonData)
+		/*alert(jsonObjold.data)*///验证是否为0
+		function but(){
+		  jsonData = {
+			data : 1
+		}; 
+		var jsonObj = eval(jsonData)
+		var str_jsonData = JSON.stringify(jsonData);
+		console.log(typeof(str_jsonData)); // string
+		localStorage.setItem('localData', str_jsonData); // 存储字符串数据到本地
+	    /*alert(jsonObj.data);*///验证是否变为1
+		}
+	</script>
+
+</html

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery.min.js"></script>
+	</head>
+	<body>
+		<button id="getBing">获取必应壁纸</button>
+		<button id="getLofter">获取Lofter壁纸</button>
+		<img id="img" src="" width="100%" height="100%" />
+	</body>
+
+	<script>
+		$(document).on("click", "#getBing", function() {
+			document.body.style.backgroundImage = "";
+			$.ajax({
+				url: "https://api.ooopn.com/image/bing/api.php",
+				data: {
+					v: 2,
+					type: "json"
+				},
+				success: function(data) {
+					if (data.code == 200) {
+						document.body.style.backgroundImage = "url(" + data.imgurl + ")";
+					}
+				},
+				error: function(xhr, type, errorThrown) {
+
+				}
+			});
+		});
+
+		$(document).on("click", "#getLofter", function() {
+			document.body.style.backgroundImage = "";
+			document.body.style.backgroundImage = "url(" + "https://api.ooopn.com/image/lofter/api.php" + ")";
+			document.body.onload = function(e) {
+				alert("加载完成");
+			}
+		});
+	</script>
+</html>
